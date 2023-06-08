@@ -1,0 +1,76 @@
+/** CSS RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/** Main CSS  */
+
+/* Navbar section */
+
+.navbar {
+    height: 80px;
+    line-height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn {
+    padding: 0px 25px;
+}
+
+/* Main section */
+
+main {
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+
+#grid {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed aquamarine;;
+}
+
+.cell {
+    height: calc(100% / 10);
+    flex-basis: calc(100% / 10);
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell.clicked {
+    background-color: lightblue;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+}
