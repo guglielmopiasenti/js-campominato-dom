@@ -68,6 +68,11 @@ main {
 
 .cell.clicked {
     background-color: lightblue;
+    cursor: not-allowed;
+}
+
+.cell.clicked.bomb {
+    background-color: red;
 }
 
 footer {
